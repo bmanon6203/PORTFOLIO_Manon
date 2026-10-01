@@ -2,8 +2,8 @@
 // TRADUCTION : un texte peut être simple ('Manon') ou bilingue { fr: '...', en: '...' }.
 export const site = {
   name: 'Manon',
-  tagline: 'Creative designer / Motion / 3D / Visuals',
-  hint: { fr: 'Explore my universe — choisis un objet', en: 'Explore my universe — pick an object' },
+  tagline: { fr: 'Motion, 3D, Animation, Graphisme', en: 'Motion, 3D, Animation, Graphic Design' },
+  //hint: { fr: 'Explore my universe — choisis un objet', en: 'Explore my universe — pick an object' },
   // Décor d'accueil : type "image" (public/background.jpg) ou "video" (public/background.mp4)
   background: { type: 'image', src: '/background.jpg', poster: '/background.jpg' },
   profile: {
