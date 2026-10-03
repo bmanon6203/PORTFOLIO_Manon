@@ -133,8 +133,7 @@ export const projects = [
     title: { fr: 'Turnaround du Chapelier Fou', en: 'The Mad Hatter Turnaround' },
     category: 'Graphisme',
     year: '2026',
-    thumbnail: `${dir('MadHatter')}/MadHatterWalking.mp4`,
-    cover: `${dir('cactoon')}/MadHatter.jpg`,
+    thumbnail: `${dir('MadHatter')}/MadHatter.jpg`,
     description: {
       fr: 'Illustration du Chapelier Fou',
       en: "Illustration of the Mad Hatter"
@@ -151,8 +150,7 @@ export const projects = [
     title: { fr: 'Générique du court-métrage La Famille', en: 'Opening Credits for the Short Film La Famille' },
     category: 'Motion',
     year: '2026',
-    thumbnail: `${dir('LaFamille')}/MadHatterWalking.mp4`,
-    cover: `${dir('cactoon')}/LaFamille.png`,
+    thumbnail: `${dir('LaFamille')}/LaFamille.png`,
     description: {
       fr: 'Générique de court-métrage étudiant intitulé La Famille',
       en: "Opening credits for a student short film titled La Famille"
