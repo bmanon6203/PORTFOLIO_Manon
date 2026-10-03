@@ -5,17 +5,17 @@ export const site = {
   tagline: { fr: 'Motion, 3D, Animation, Graphisme', en: 'Motion, 3D, Animation, Graphic Design' },
   //hint: { fr: 'Explore my universe — choisis un objet', en: 'Explore my universe — pick an object' },
   // Décor d'accueil : type "image" (public/background.jpg) ou "video" (public/background.mp4)
-  background: { type: 'image', src: '/background.jpg', poster: '/background.jpg' },
+  background: { type: 'video', src: '/background.jpg', poster: '/background.jpg' },
   profile: {
     title: { fr: 'Profil', en: 'Profile' },
     text: {
       fr: [
-        "PLACEHOLDER — Étudiante en BUT MMI, je crée des univers en animation 3D, motion design et post-production.",
-        "PLACEHOLDER — Ajoute ici 2 ou 3 phrases sur ton parcours, ce qui t'anime et ce que tu recherches."
+        "Étudiante en BUT MMI, je crée des univers en animation 3D, motion design et création numérique.",
+        "J’aime donner forme, mouvement et histoire à mes idées pour transmettre une émotion ou raconter quelque chose."
       ],
       en: [
-        "PLACEHOLDER — I'm a multimedia and web student creating worlds through 3D animation, motion design and post-production.",
-        "PLACEHOLDER — Add 2 or 3 sentences here about your background, what drives you and what you are looking for."
+        "MMI student, I create worlds through 3D animation, motion design, and digital creation.",
+        "I love giving shape, movement, and stories to my ideas to convey emotions and tell a story."
       ]
     }
   },
@@ -30,12 +30,15 @@ export const site = {
   socials: [
     { id: 'mail',     label: 'Gmail',    href: 'mailto:b.manon6203@gmail.com',     logo: '/icons/gmail.svg' },
     { id: 'whatsapp', label: 'WhatsApp', href: 'https://wa.me/qr/FSFPNOQU4EIOP1',  logo: '/icons/whatsapp.svg' },
-    { id: 'linkedin', label: 'LinkedIn', href: 'MON_LIEN_LINKEDIN',                logo: '/icons/linkedin.svg' },
-    { id: 'facebook', label: 'Facebook', href: 'MON_LIEN_FACEBOOK',                logo: '/icons/facebook.svg' }
+    { id: 'linkedin', label: 'LinkedIn', href: 'www.linkedin.com/in/manon-belguerbi-44214033a',                logo: '/icons/linkedin.svg' },
+    { id: 'facebook', label: 'Facebook', href: 'https://www.facebook.com/profile.php?id=100004813877717',                logo: '/icons/facebook.svg' }
   ],
   // CV téléchargeable : dépose ton PDF dans public/ et indique son nom ici (file: '' pour masquer le bouton)
   // Astuce : pour un CV par langue, mets file: { fr: '/cv-fr.pdf', en: '/cv-en.pdf' }
-  cv: { label: { fr: 'Télécharger mon CV', en: 'Download my CV' }, file: '/cv-manon.pdf' },
+  cv: {
+  label: { fr: 'Télécharger mon CV', en: 'Download my CV' },
+  file: { fr: '/cv-fr.pdf', en: '/cv-en.pdf' }
+},
   // Endpoint du formulaire (Formspree, etc.) : défini dans Netlify > Environment variables : VITE_FORM_ENDPOINT
   formEndpoint: import.meta.env.VITE_FORM_ENDPOINT || ''
 }
@@ -45,17 +48,17 @@ export const site = {
 export const categories = [
   { name: 'Animation', en: 'Animation', icon: '🎬' },
   { name: 'Post-production', en: 'Post-production', icon: '🎚️' },
-  { name: 'Jeu vidéo', en: 'Video games', icon: '🎮' },
+  { name: '3D', en: '3D', icon: '🧊' },
   { name: 'Graphisme', en: 'Graphic design', icon: '🖌️' },
   { name: 'Stop Motion', en: 'Stop motion', icon: '🧶' },
   { name: 'Autres', en: 'Other', icon: '✦' }
 ]
 
 export const skills = {
-  hard: ['After Effects', 'Premiere Pro', 'Photoshop', 'Illustrator', 'Blender', 'Cinema 4D', 'Substance Painter'],
+  hard: ['After Effects', 'Premiere Pro', 'Photoshop', 'Illustrator', 'Blender', 'Unreal Engine', 'Substance Painter', 'Subtitles Edit'],
   soft: [
-    { fr: 'Créativité', en: 'Creativity' }, { fr: 'Curiosité', en: 'Curiosity' }, { fr: 'Autonomie', en: 'Autonomy' },
+    { fr: 'Créativité', en: 'Creativity' }, { fr: 'Observatrice', en: 'Observational Skills' }, { fr: 'Autonomie', en: 'Autonomy' },
     { fr: "Travail d'équipe", en: 'Teamwork' }, { fr: 'Adaptabilité', en: 'Adaptability' },
-    { fr: 'Organisation', en: 'Organisation' }, { fr: 'Communication', en: 'Communication' }
+    { fr: 'Organisation', en: 'Organisation' }, { fr: 'À l’écoute des retours', en: 'Receptive to feedback' }
   ]
 }
