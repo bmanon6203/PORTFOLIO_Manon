@@ -50,7 +50,6 @@ export const categories = [
   { name: 'Post-production', en: 'Post-production', icon: '🎚️' },
   { name: '3D', en: '3D', icon: '🧊' },
   { name: 'Graphisme', en: 'Graphic design', icon: '🖌️' },
-  { name: 'Stop Motion', en: 'Stop motion', icon: '🧶' },
   { name: 'Autres', en: 'Other', icon: '✦' },
   { name: 'Motion', en: 'Motion', icon: '💫' }
 ]
