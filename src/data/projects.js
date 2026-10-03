@@ -245,7 +245,7 @@ export const projects = [
     details: { fr: 'Exercice d’animation consistant à créer un scénario avec une morale, traité sur un ton humoristique. J’ai choisi d’aborder le thème de l’acceptation de soi, à travers l’univers fantaisiste d’Alice au pays des merveilles. J’ai ainsi mis en scène le Chapelier Fou et le Chat du Cheshire dans un style cartoon.', 
               en: 'An animation exercise focused on creating a story with a moral, told in a humorous way. I chose to explore the theme of self-acceptance, using the whimsical universe of Alice in Wonderland. I featured the Mad Hatter and the Cheshire Cat, illustrated in a cartoon style.' },
     role: { fr: ['Illustration', 'Animation', 'Motion', 'Script'], en: ['Illustration', 'Animation', 'Motion', 'Script'] },
-    software: ['Illustrator' , 'After Effect' 'Character Animator', 'Premiere Pro'],
+    software: ['Illustrator' , 'After Effect', 'Character Animator', 'Premiere Pro'],
     externalLink: 'https://drive.google.com/drive/folders/1e3MgILpx0-ZjtaY6_57jCcc-MET_LY7j?usp=sharing',
     linkLabel: { fr: 'Voir le contenu', en: 'View the content' },
   },
