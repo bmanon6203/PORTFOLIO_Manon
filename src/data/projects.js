@@ -84,8 +84,8 @@ export const projects = [
     year: '2026',
     thumbnail: `${dir('PopeyeVillageReel')}/PopeyeVillageReel.png`,
     description: {
-      fr: 'Un livre de coloriage autour des quatre saisons avec les personnages de la chaîne.',
-      en: "A coloring book built around the four seasons, featuring the channel's characters."
+      fr: 'Des réels réalisés pour les réseaux sociaux de Popeye Village Malta.',
+      en: "Reels created for Popeye Village Malta's social media channels."
     },
     details: { fr: 'Lors de mon stage à Popeye Village Malta, j’ai participé à la promotion du parc en créant des Reels destinés à Instagram et TikTok. J’ai conçu et monté plusieurs vidéos adaptées aux formats et aux codes des réseaux sociaux. L’une de mes créations a notamment atteint environ 51 000 vues sur TikTok et 198 000 vues sur Instagram.', 
               en: 'During my internship at Popeye Village Malta, I contributed to promoting the theme park by creating Reels for Instagram and TikTok. I produced and edited several videos adapted to social media formats and trends. One of my videos reached around 51,000 views on TikTok and 198,000 views on Instagram.' },
@@ -108,7 +108,7 @@ export const projects = [
               en: 'During my internship at Popeye Village Malta, I was asked by my supervisor to design and create the restaurant banners and menu displays for the Seafood Restaurant. This was an important first experience for me, as my designs were publicly displayed within one of Malta’s iconic theme parks.' },
     role: { fr: ['Illustration'], en: ['Illustration'] },
     software: ['Illustrator', 'Photoshop'],
-    externalLink: 'https://drive.google.com/drive/folders/1i0SdAgoKzl0N7KwTgyTyZNE79YuQ4Pak?usp=sharing',
+    externalLink: 'https://drive.google.com/drive/folders/12hRXt6WwJZJNhu8p4ooOH97JTjSqvO9q?usp=sharing',
     linkLabel: { fr: 'Voir le contenu', en: 'View the content' },
   },
   {
